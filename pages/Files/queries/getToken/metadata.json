@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6832067f672fa931ca1f4fae_b110d823-641f-4ff4-9f13-589f404d653c",
-  "id": "Page1_getToken",
+  "id": "Files_getToken",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -65,7 +65,7 @@
     "dynamicBindingPathList": [],
     "executeOnLoad": false,
     "name": "getToken",
-    "pageId": "Page1",
+    "pageId": "Files",
     "userSetOnLoad": false
   }
 }

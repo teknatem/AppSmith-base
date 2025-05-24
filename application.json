@@ -21,7 +21,7 @@
   "icon": "open-new-tab",
   "pages": [
     {
-      "id": "Page1",
+      "id": "Files",
       "isDefault": true
     }
   ],

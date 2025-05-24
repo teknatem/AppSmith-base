@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "autoPlay": false,
-  "bottomRow": 62,
+  "bottomRow": 75,
   "dynamicBindingPathList": [
     {
       "key": "url"
@@ -24,7 +24,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 36,
-  "topRow": 58,
+  "topRow": 71,
   "type": "AUDIO_WIDGET",
   "url": "{{ appsmith.store.audio_url }}",
   "version": 1,

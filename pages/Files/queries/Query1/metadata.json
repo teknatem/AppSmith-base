@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6832067f672fa931ca1f4fae_3ff70070-16a8-4d4a-bb9b-b64bc8c2ad47",
-  "id": "Page1_Query1",
+  "id": "Files_Query1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
     },
     "executeOnLoad": false,
     "name": "Query1",
-    "pageId": "Page1",
+    "pageId": "Files",
     "userSetOnLoad": false
   }
 }
