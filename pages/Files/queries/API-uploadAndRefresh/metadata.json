@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "API.uploadAndRefresh",
     "name": "uploadAndRefresh",
     "pageId": "Files",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

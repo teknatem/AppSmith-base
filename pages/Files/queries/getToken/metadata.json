@@ -63,9 +63,9 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "getToken",
     "pageId": "Files",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

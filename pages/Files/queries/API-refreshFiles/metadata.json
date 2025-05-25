@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "API.refreshFiles",
     "name": "refreshFiles",
     "pageId": "Files",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

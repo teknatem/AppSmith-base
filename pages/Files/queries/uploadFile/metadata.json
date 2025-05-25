@@ -56,9 +56,9 @@
         "key": "bodyFormData[0].value"
       }
     ],
-    "executeOnLoad": false,
     "name": "uploadFile",
     "pageId": "Files",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
