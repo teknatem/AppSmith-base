@@ -7,7 +7,16 @@
     "appPositioning": {
       "type": "FIXED"
     },
-    "navigationSetting": {},
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": false
+    },
     "themeSetting": {
       "appMaxWidth": "LARGE",
       "density": 1.0,
@@ -18,11 +27,31 @@
   "collapseInvisibleWidgets": true,
   "color": "#F3F1C7",
   "evaluationVersion": 2,
-  "icon": "open-new-tab",
+  "icon": "bar-graph",
   "pages": [
     {
-      "id": "Files",
+      "id": "AudioFiles",
       "isDefault": true
+    },
+    {
+      "id": "Fastapi-files",
+      "isDefault": false
+    },
+    {
+      "id": "Файлы",
+      "isDefault": false
+    },
+    {
+      "id": "AudioFiles Copy",
+      "isDefault": false
+    },
+    {
+      "id": "Настройки",
+      "isDefault": false
+    },
+    {
+      "id": "SettingsEditorBase",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
@@ -32,7 +61,16 @@
     "appPositioning": {
       "type": "FIXED"
     },
-    "navigationSetting": {},
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": false
+    },
     "themeSetting": {
       "appMaxWidth": "LARGE",
       "density": 1.0,
