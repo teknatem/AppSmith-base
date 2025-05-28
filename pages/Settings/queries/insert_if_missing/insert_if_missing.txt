@@ -1,0 +1,5 @@
+INSERT INTO app_settings (category, key, value, description)
+SELECT '{{this.params.category}}', '{{this.params.key}}', '{{this.params.value}}', '{{this.params.description}}'
+WHERE NOT EXISTS (
+  SELECT 1 FROM app_settings WHERE category = '{{this.params.category}}' AND key = '{{this.params.key}}'
+);

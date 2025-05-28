@@ -1,10 +1,11 @@
 {
-  "gitSyncId": "683371f8df4cde4242f9978b_3ed7daea-c022-4dfb-964f-cdfedc5d19bb",
-  "id": "AudioFiles Copy_Query2",
+  "gitSyncId": "6832067f672fa931ca1f4fae_3ff70070-16a8-4d4a-bb9b-b64bc8c2ad47",
+  "id": "Start_Query1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
+      "body": "SELECT * FROM public.\"users\" LIMIT 10;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -21,8 +22,8 @@
       "name": "Users",
       "pluginId": "postgres-plugin"
     },
-    "name": "Query2",
-    "pageId": "AudioFiles Copy",
+    "name": "Query1",
+    "pageId": "Start",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

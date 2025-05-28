@@ -30,7 +30,7 @@
   "icon": "bar-graph",
   "pages": [
     {
-      "id": "AudioFiles",
+      "id": "Start",
       "isDefault": true
     },
     {
@@ -46,11 +46,7 @@
       "isDefault": false
     },
     {
-      "id": "Настройки",
-      "isDefault": false
-    },
-    {
-      "id": "SettingsEditorBase",
+      "id": "Settings",
       "isDefault": false
     }
   ],

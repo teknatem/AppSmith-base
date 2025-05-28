@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "683371f8df4cde4242f9978b_57638e29-4221-49ad-afc9-e808a46c66c7",
+  "id": "Settings_SettingsInit",
+  "unpublishedCollection": {
+    "name": "SettingsInit",
+    "pageId": "Settings",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "requiredSettings",
+        "value": "[{\n  category: \"s3\",\n  key: \"bucket_meetings\",\n  value: \"meeting-archive\",\n  description: \"Основной бакет для хранения встреч\"\n}, {\n  category: \"api\",\n  key: \"hook_transcription\",\n  value: \"\",\n  description: \"Webhook для результатов AssemblyAI\"\n}, {\n  category: \"llm\",\n  key: \"llm_endpoint\",\n  value: \"\",\n  description: \"URL до LLM API для суммаризации\"\n}]"
+      }
+    ]
+  }
+}
