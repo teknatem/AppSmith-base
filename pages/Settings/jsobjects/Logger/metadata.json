@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "683371f8df4cde4242f9978b_ecb8c61f-8c0e-41d6-98a0-3b8f369c852b",
+  "id": "Settings_Logger",
+  "unpublishedCollection": {
+    "name": "Logger",
+    "pageId": "Settings",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

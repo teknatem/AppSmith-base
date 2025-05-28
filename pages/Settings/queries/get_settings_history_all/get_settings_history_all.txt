@@ -1,0 +1,6 @@
+SELECT 
+  key, 
+  value, 
+  changed_at 
+FROM settings_history 
+ORDER BY changed_at DESC;

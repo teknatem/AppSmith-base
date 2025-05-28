@@ -1,0 +1,6 @@
+SELECT DISTINCT ON (value) 
+  value, 
+  changed_at
+FROM settings_history
+WHERE key = '{{ inp_key.text }}'
+ORDER BY value, changed_at DESC

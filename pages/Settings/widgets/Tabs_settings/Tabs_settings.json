@@ -10,7 +10,7 @@
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1110,
+      "bottomRow": 1010,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -97,6 +97,51 @@
       "version": 1,
       "widgetId": "d96za3xj2e",
       "widgetName": "Canvas2"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 1010,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "67z1slfy0c",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 1050,
+      "minWidth": 450,
+      "mobileBottomRow": 1051,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1936,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "usu0sbtifg",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1936,
+      "tabId": "tab57rg6nktzo",
+      "tabName": "История",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "nw0str8bdg",
+      "widgetName": "Canvas4"
     }
   ],
   "defaultTab": "Все настройки",
@@ -154,6 +199,13 @@
       "label": "Специальные настройки",
       "positioning": "vertical",
       "widgetId": "d96za3xj2e"
+    },
+    "tab57rg6nktzo": {
+      "id": "tab57rg6nktzo",
+      "index": 2,
+      "isVisible": true,
+      "label": "История",
+      "widgetId": "nw0str8bdg"
     }
   },
   "topRow": 0,

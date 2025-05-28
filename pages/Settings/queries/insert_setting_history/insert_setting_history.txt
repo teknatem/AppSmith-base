@@ -1,0 +1,2 @@
+INSERT INTO settings_history (key, value)
+VALUES ({{ inp_key.text }}, {{ inp_value.text }});

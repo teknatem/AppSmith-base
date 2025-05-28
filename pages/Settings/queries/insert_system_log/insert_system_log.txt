@@ -1,0 +1,7 @@
+INSERT INTO system_log (module, object, comment, level)
+VALUES (
+  {{ this.params.module }},
+  {{ this.params.object }},
+  {{ this.params.comment }},
+  {{ this.params.level || 'info' }}
+);
