@@ -1,0 +1,56 @@
+{
+  "borderRadius": "0px",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultImage": "https://res.cloudinary.com/drako999/image/upload/v1589196259/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "image"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "image": "{{currentItem.data}}",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "logBlackList": {
+    "bottomRow": true,
+    "defaultImage": true,
+    "image": true,
+    "imageShape": true,
+    "isLoading": true,
+    "isVisible": true,
+    "leftColumn": true,
+    "maxZoomLevel": true,
+    "minHeight": true,
+    "objectFit": true,
+    "parentColumnSpace": true,
+    "parentId": true,
+    "parentRowSpace": true,
+    "rightColumn": true,
+    "topRow": true,
+    "type": true,
+    "version": true,
+    "widgetId": true,
+    "widgetName": true
+  },
+  "maxZoomLevel": 1,
+  "objectFit": "contain",
+  "onClick": "{{showModal('Zoom_Modal2')}}",
+  "parentColumnSpace": 7.3125,
+  "parentId": "romgsruzxz",
+  "parentRowSpace": 10,
+  "rightColumn": 19,
+  "topRow": 0,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "ql8qs2xelx",
+  "widgetName": "Image2"
+}

@@ -1,0 +1,47 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 79,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{ selected_files.items.length == 0 || selected_files.items.map((file) => file.update_files_name.text).includes(\"\") }}",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 36,
+  "onClick": "{{\nFilePicker.files.forEach((file, index) => {\n\tCreateFile.run((response, params) => { showAlert('File Uploaded','success'); \nif (params.isLastFile) {\n\tListFiles.run(() => {closeModal('Upload_Files_Modal');   resetWidget('folder_name', true);\t\t\t\t\tresetWidget('FilePicker', true);\nresetWidget('update_files_name', true);\n})\t\n}\n}, () => showAlert('File Upload Failed','error'), {fileIndex: index, name: selected_files.items[index].update_files_name.text, isLastFile: index == (FilePicker.files.length - 1), });\n\treturn true;\n})\n}}",
+  "parentId": "xv97g6rzgq",
+  "recaptchaType": "V3",
+  "rightColumn": 64,
+  "text": "Upload",
+  "topRow": 75,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "1uava20nxi",
+  "widgetName": "upload_button"
+}

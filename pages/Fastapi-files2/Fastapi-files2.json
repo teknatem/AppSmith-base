@@ -1,12 +1,11 @@
 {
-  "gitSyncId": "683371f8df4cde4242f9978b_f015b165-f879-468b-ae79-2ffd606726f1",
+  "gitSyncId": "683371f8df4cde4242f9978b_0e827205-601b-447b-808b-e202b175d478",
   "unpublishedPage": {
-    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1140,
+          "bottomRow": 850,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -18,7 +17,7 @@
           "parentRowSpace": 1,
           "rightColumn": 1174,
           "snapColumns": 64,
-          "snapRows": 125,
+          "snapRows": 129,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 93,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Employees",
-    "slug": "employees"
+    "name": "Fastapi-files2",
+    "slug": "fastapi-files2"
   }
 }

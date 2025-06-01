@@ -1,14 +1,14 @@
 {
-  "backgroundColor": "#FFFFFF",
-  "borderColor": "#fff",
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": "0",
-  "bottomRow": 114,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "backgroundColor": "white",
+  "borderColor": "#2E3D4955",
+  "borderRadius": "5px",
+  "borderWidth": "1",
+  "bottomRow": 12,
+  "boxShadow": "none",
   "children": [
     {
       "borderRadius": "0px",
-      "bottomRow": 1140,
+      "bottomRow": 120,
       "boxShadow": "none",
       "canExtend": false,
       "containerStyle": "none",
@@ -19,51 +19,42 @@
       "isVisible": "true",
       "labelTextSize": "0.875rem",
       "leftColumn": 0,
-      "minHeight": 870,
+      "minHeight": 120,
       "parentColumnSpace": 1,
-      "parentId": "mvubsemxfo",
+      "parentId": "u3nvgafsdo",
       "parentRowSpace": 1,
-      "rightColumn": 632,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "59rw5mx0bq",
-      "widgetName": "Canvas1"
+      "widgetId": "romgsruzxz",
+      "widgetName": "Canvas8"
     }
   ],
   "containerStyle": "card",
-  "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
-    }
-  ],
+  "disablePropertyPane": true,
+  "disallowCopy": true,
+  "dragDisabled": true,
+  "dynamicBindingPathList": [],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
     }
   ],
   "dynamicTriggerPathList": [],
+  "isDeletable": false,
   "isLoading": false,
   "isVisible": "true",
   "labelTextSize": "0.875rem",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "parentColumnSpace": 19.75,
-  "parentId": "0",
-  "parentRowSpace": 10,
-  "rightColumn": 49,
-  "shouldScrollContents": true,
+  "openParentPropertyPane": true,
+  "parentId": "oqhzaygncs",
+  "rightColumn": 64,
   "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "mvubsemxfo",
-  "widgetName": "Container1"
+  "widgetId": "u3nvgafsdo",
+  "widgetName": "Container4"
 }

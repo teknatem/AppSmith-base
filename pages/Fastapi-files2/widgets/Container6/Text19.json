@@ -1,0 +1,39 @@
+{
+  "borderRadius": "0px",
+  "bottomRow": 23,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": "{{FilePicker.files.length > 0}}",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 8.0458984375,
+  "parentId": "xv97g6rzgq",
+  "parentRowSpace": 10,
+  "rightColumn": 52,
+  "text": "Selected files to upload",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 19,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "9wh2ereoy9",
+  "widgetName": "Text19"
+}

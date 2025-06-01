@@ -48,6 +48,18 @@
     {
       "id": "Employees",
       "isDefault": false
+    },
+    {
+      "id": "Meetings+",
+      "isDefault": false
+    },
+    {
+      "id": "Departments",
+      "isDefault": false
+    },
+    {
+      "id": "Fastapi-files2",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

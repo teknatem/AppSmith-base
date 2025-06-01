@@ -1,24 +1,23 @@
 {
-  "gitSyncId": "683371f8df4cde4242f9978b_f015b165-f879-468b-ae79-2ffd606726f1",
+  "gitSyncId": "683371f8df4cde4242f9978b_26628b99-442a-4bb7-9b60-8a84b2802b17",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1140,
+          "bottomRow": 660,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 900,
+          "minHeight": 1120,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1174,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 125,
+          "snapRows": 110,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 93,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Employees",
-    "slug": "employees"
+    "name": "Meetings+",
+    "slug": "meetings"
   }
 }

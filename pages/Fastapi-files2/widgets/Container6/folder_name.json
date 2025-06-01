@@ -1,0 +1,48 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": false,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "true",
+  "key": "om9y3ljmtt",
+  "label": "",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 16,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 11.8955078125,
+  "parentId": "xv97g6rzgq",
+  "parentRowSpace": 10,
+  "placeholderText": "folder/sub-folder",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 63,
+  "topRow": 6,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "true",
+  "version": 2,
+  "widgetId": "215nlsqncm",
+  "widgetName": "folder_name"
+}
