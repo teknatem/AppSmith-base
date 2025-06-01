@@ -1,6 +1,7 @@
 {
+  "backgroundColor": "",
   "borderRadius": "0px",
-  "bottomRow": 5,
+  "bottomRow": 4,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -20,20 +21,20 @@
   "isLoading": false,
   "isVisible": "true",
   "labelTextSize": "0.875rem",
-  "leftColumn": 0,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "overflow": "NONE",
-  "parentColumnSpace": 11.78515625,
-  "parentId": "59rw5mx0bq",
+  "parentColumnSpace": 19.8125,
+  "parentId": "6tz2s7ivi5",
   "parentRowSpace": 10,
-  "rightColumn": 54,
-  "text": "Подразделения",
+  "rightColumn": 63,
+  "text": "Файлы в хранилище",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 0,
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "urzv99hdc8",
-  "widgetName": "Text16"
+  "widgetId": "t54ituq472",
+  "widgetName": "Text6"
 }

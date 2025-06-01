@@ -34,14 +34,6 @@
       "isDefault": true
     },
     {
-      "id": "Fastapi-files",
-      "isDefault": false
-    },
-    {
-      "id": "Файлы",
-      "isDefault": false
-    },
-    {
       "id": "Settings",
       "isDefault": false
     },
@@ -58,7 +50,11 @@
       "isDefault": false
     },
     {
-      "id": "Fastapi-files2",
+      "id": "Files",
+      "isDefault": false
+    },
+    {
+      "id": "Результат",
       "isDefault": false
     }
   ],
